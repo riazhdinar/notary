@@ -1,0 +1,399 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	padding: 10px 0;
+
+}
+.container{
+	width: 80%;
+	/* border: 1px solid black; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	/* border: 1px solid red; */
+	float: left;
+	padding: 10px 0;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 75%;
+	/* border: 1px solid red; */
+	float: right;
+	padding: 8px 0;
+}
+.gorgo{
+	width: 55%;
+	/* border: 1px solid red; */
+	float: left;
+	padding: 7px 0 7px 20px;
+}
+
+
+.menu ul{
+	float: right;
+}
+
+.gorgo ul{
+	float: left;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 15.5px;
+	color: #131313;
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 15px;
+
+}
+.menu ul li a:hover{
+	color: #BC2341;
+	transition: .5s;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.purchase{
+	background-color: red;
+	margin-top: 13px;
+	padding: 8px 25px;
+	float: right;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}
+
+
+/* .btn{
+	background-color: black;
+	padding: 8px 25px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}	
+.btn:hover{
+	background-color: red;
+	transition: .5s;
+} */
+
+/* banner start */
+
+.banner{
+	background: url('../images/banner.jpg');
+	background-size: cover;
+	/* background-position: center; */
+	min-height: 450px;
+
+}
+.wrapper{
+	margin: 100px 0;
+	width: 45%;
+	/* border: 1px solid yellow; */
+}
+.banner h1{
+	margin: 0 0 40px;
+	font-family: sans-serif;
+	font-size: 53px;
+	font-weight: 700;
+	color:  #fff;
+	text-transform: capitalize;
+}
+.banner p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:  #fff;
+}
+.btn2{
+	margin-top: 35px;
+	padding: 9px 20px;
+	background-color: #BC2341;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color:  #fff;
+	text-transform: uppercase;
+	transition: .4s;
+}
+.btn2:hover{
+	background-color: #fff;
+	color:  #BC2341;
+
+	/* border: 1px solid #BC2341; */
+}
+
+/* banner end */
+
+/* works start */
+.works{
+	padding: 60px 0;
+	overflow: hidden;
+	/* border-bottom: 1px solid #A4A4A4; */
+
+}
+.top{
+	margin: 0 auto;
+	width: 65%;
+	/* border: 1px solid; */
+	text-align: center;
+}
+
+.w_h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color:  #202020;
+}
+.w_p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:  #A4A4A4;
+}
+.bottom{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.single{
+	margin: 15px 1.5%;
+    padding: 4% 2.5% 3.5%;
+    width: 25%;
+    /* height: 100%; */
+    float: left;
+    text-align: center;
+    border: 1px solid #F9F9F9;
+    box-shadow: 0px 0px 1px #8b8b8b;
+}
+
+.single:hover{
+	box-shadow: 0 0 10px #8b8b8b;
+	transition: .3s;
+}
+
+.s_img{
+	margin: 0 auto;
+	width: 50%;
+	/* border: 1px solid red; */
+}
+.s_img img{
+	width: 100%;
+}
+.single h3{
+	width: 83%;
+	margin: 30px auto 0px;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color:  #202020;
+}
+
+/* works end */
+
+/* learn start */
+
+.learn{
+	padding: 60px 0;
+}
+
+.right_area{
+	width: 43%;
+	padding: 39px 0;
+	/* border: 1px solid red; */
+	float: left;
+}
+
+.right_area h2{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color:  #202020;
+	text-transform: uppercase;
+	line-height: 32px;
+}
+.right_area p{
+	margin: 15px 0 0px;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color:  #A4A4A4;
+	line-height: 20px;
+}
+
+.left_area{
+	width: 43%;
+	float: right;
+	/* border: 1px solid red; */
+}
+.left_area img{
+	width: 100%;
+}
+/* learn end */
+
+/* features start */
+.features{
+	padding: 60px 0;
+	overflow: hidden;
+}
+.f_img{
+	margin: 0 auto;
+	width: 20%;
+	/* border: 1px solid red; */
+}
+.f_img img{
+	width: 100%;
+}
+.single p{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color:  #A4A4A4;
+}
+
+.all_features{
+	margin: 35px auto;
+	padding: 9px 20px;
+	background-color: #BC2341;
+	border: none;
+	border-radius: 3px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color:  #fff;
+	text-transform: uppercase;
+	transition: .4s;
+}
+.all_features:hover{
+	background-color: #fff;
+	color:  #BC2341;
+	/* border: 1px solid #BC2341; */
+}
+/* features end */
+
+/* top footer start */
+
+.top_footer{
+	background-color: #090909;
+	padding: 20px 0;
+}
+.f_heading{
+	margin: 0px 3%;
+    padding: 2% 0%;
+    width: 25%;
+    /* height: 100%; */
+    float: left;
+    /* border: 1px solid #F9F9F9; */
+    /* box-shadow: 0px 0px 1px #8b8b8b; */
+}
+
+.f_h2{
+	font-family: sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	color:  #B32440;
+	text-transform: uppercase;
+}
+.f_heading ul{
+	padding-left: 0;
+}
+.f_heading ul li{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 6px 0;
+	list-style: none;
+	color: #5B626C;
+}
+.f_heading ul li a{
+	text-decoration: none;
+	color: #5B626C;
+	transition: .3s;
+}
+.f_heading ul li a:hover{
+	color: #B32440;
+}
+.f_heading p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #5B626C;
+	text-align: justify;
+}
+
+.down{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.email{
+	width: 60%;
+	float: left;
+}
+.email input{
+	width: 100%;
+	padding: 8px 10px;
+	background-color: #090909;
+	color: #5B626C;
+	border: 1px solid #5B626C;
+	border-right: none;
+	box-sizing: border-box;
+}
+.subscribe{
+	width: 40%;
+	float: right;
+}
+.subscribe button{
+	width: 100%;
+	background-color: #C12041;
+	border: none;
+	padding: 8.5px;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+	transition: .3s;
+}
+.subscribe button:hover{
+	background-color: #fff;
+	color: #C12041;
+}
+/* top footer end */
+
+/* bottom footer start */
+
+.b_footer{
+	background-color: #535D69;
+	text-align: center;
+}
+.b_footer p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+
+/* bottom footer end */
